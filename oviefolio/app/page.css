@@ -1,0 +1,12 @@
+
+.main{
+    background-image: url('../public/bg.jpg');
+    height: 100vh;
+    width: 100wh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding: 20px 90px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
