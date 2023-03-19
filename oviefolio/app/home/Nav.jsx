@@ -1,6 +1,7 @@
 import React from 'react';
 import "./home.css";
 import {Montserrat} from "@next/font/google";
+import Link from 'next/link';
 
 
 const monstserrat = Montserrat({
@@ -16,16 +17,16 @@ const Nav = () => {
           <h1>logo</h1>
           <ul className='unorderedList'>
             <li className='lists'>
-              <a href="#">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className='lists'>
-              <a href="#">About</a>
+            <Link href="/about">About</Link>
             </li>
             <li className='lists'>
-              <a href="#">Portfolio</a>
+            <Link href="/portfolio">Portfolio</Link>
             </li>
             <li className='lists'>
-              <a href="#">Contact</a>
+            <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
