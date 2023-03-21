@@ -85,5 +85,5 @@
 .icon{
     font-size: 25px;
     color: rgb(252, 202, 6);
-  
+    cursor: pointer;
 }
